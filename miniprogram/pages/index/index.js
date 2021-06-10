@@ -14,7 +14,6 @@ Page({
   },
 
   onLoad: function() {
-    debugger
     if (!wx.cloud) {
       wx.redirectTo({
         url: '../chooseLib/chooseLib',
@@ -64,7 +63,7 @@ Page({
         app.globalData.openid = res.result.openid
         wx.navigateTo({
           // url: '../userConsole/userConsole',
-          url: '../notes/index.js',
+          url: '../notes/notes',
         })
       },
       fail: err => {
@@ -125,11 +124,9 @@ Page({
   },
 
   //  === yyy ===
-  gotoNewPage() {
-    debugger
-    wx.navigateTo({
-      url: '../notes'
-    })
-  }
-
+  // gotoNewPage() {
+  //   wx.navigateTo({
+  //     url: '../notes/notes'
+  //   })
+  // }
 })

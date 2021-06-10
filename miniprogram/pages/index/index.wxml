@@ -75,6 +75,6 @@
 
   <view class="loginBackground">
     <image src="../../images/loginBackground.jpg" mode="widthFix"></image>
-    <button class="loginBtn" bindtap="gotoNewPage" type="default" size="mini">JOIN US</button>
+    <button class="loginBtn" bindtap="onGetOpenid" type="default" size="mini">JOIN US</button>
   </view>
 </view>
