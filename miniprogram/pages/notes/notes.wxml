@@ -1,3 +1,10 @@
-<view>
-  <view>yyy</view>
+<view class="notes-container">
+  add task:<input class="weui-input" auto-focus placeholder="将会获取焦点" confirm-type />
+  <view class="tags">
+    <view class="tag">吃饭</view>
+    <view class="tag">运动</view>
+    <view class="tag">刷剧</view>
+  </view>
+  <view class="undo"></view>
+  <view class="done"></view>
 </view>

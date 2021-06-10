@@ -13,7 +13,9 @@
     "pages/openapi/cloudid/cloudid",
     "pages/im/im",
     "pages/im/room/room",
-    "pages/notes/notes"
+    "pages/notes/notes",
+    "pages/notes/history/history.wxml",
+    "pages/notes/history/history"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
