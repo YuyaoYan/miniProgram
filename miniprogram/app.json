@@ -14,16 +14,49 @@
     "pages/im/im",
     "pages/im/room/room",
     "pages/notes/notes",
-    "pages/notes/history/history.wxml",
+    "pages/main/main",
+    "pages/mine/mine",
     "pages/notes/history/history"
   ],
   "window": {
-    "backgroundColor": "#F6F6F6",
+    "backgroundColor": "#fff5e2",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTitleText": "百香双响炮",
     "navigationBarTextStyle": "black"
   },
+  "tabBar": {
+    "color": "#6e6d6b",
+    "selectedColor": "#f9ae21",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/notes/notes",
+        "iconPath": "images/nav/notesPage-off.png",
+        "selectedIconPath": "images/nav/notesPage-on.png",
+        "text": "今日"
+      },
+      {
+        "pagePath": "pages/main/main",
+        "iconPath": "images/nav/home-off.png",
+        "selectedIconPath": "images/nav/home-on.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "images/nav/my-off.png",
+        "selectedIconPath": "images/nav/my-on.png",
+        "text": "我的"
+      }
+    ]
+  },
   "sitemapLocation": "sitemap.json",
-  "style": "v2"
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index",
+    "van-tabbar": "@vant/weapp/tabbar/index",
+    "van-tabbar-item": "@vant/weapp/tabbar-item/index",
+    "van-dialog": "@vant/weapp/dialog/index",
+    "van-field": "@vant/weapp/field/index"
+  }
 }

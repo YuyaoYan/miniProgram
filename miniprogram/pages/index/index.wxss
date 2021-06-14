@@ -162,23 +162,23 @@ page {
 /* ===== yyy ====== */
 
 .container {
-  width: 100%;
-  height: 750px;
+  width: 120%;
+  height: 824rpx;
 
 }
 
 .container .loginBackground image {
-  width: 450px;
-  height: 750px;
+  width: 500rpx;
+  height: 824rpx;
 }
 
 .loginBtn {
   position: fixed;
-  bottom: 33px;
+  bottom: 33rpx;
   left: 38%;
 }
 
 .loginBackground button[type='default'][plain]{
   color:#ffb200;
-  border: 1px solid #ffb200;
+  border: 1rpx solid #ffb200;
 }

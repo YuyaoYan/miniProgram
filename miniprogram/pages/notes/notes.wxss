@@ -1,34 +1,62 @@
 /* pages/notes/index.wxss */
 .notes-container {
   background-color: #fff5e2;
-  padding: 10px;
+  padding: 20rpx;
+}
+
+.header {
+  margin: 18rpx 0 20rpx;
+  font-size: 50rpx;
+}
+
+.add-tag {
+  position: absolute;
+  top: 110rpx;
+  right: 20rpx;
+}
+
+
+.label-tag {
+  color: #f76464;
+}
+
+.tags {
+  margin-top: 20rpx;
+}
+
+.tag {
+  height: 52rpx;
+  line-height: 52rpx;
+  border: 2rpx solid pink;
+  text-align: center;
+  background: #ffe9ed;
+  border-radius: 8rpx;
+  display: inline-block;
+  margin: 0rpx 18rpx 18px 0;
+  color: #f76464;
+  padding: 0 10rpx;
 }
 
 .undo,
 .done {
-  min-height: 200px;
-  border: 2px dotted rgba(255, 158, 30, 0.5);
-  border-radius: 4px;
-  margin: 10px 0;
+  min-height: 400rpx;
+  border-radius: 8rpx;
+  margin: 20rpx 0;
   box-sizing: border-box;
+}
+
+.label-undo {
+  color: #f18c0780;
+}
+.label-done {
+  color: #9ebea0;
+}
+.undo{
   background-color: #ffeac3;
+  border: 4rpx dotted #ff9e1e80;
+
 }
-
-.tags {}
-
-.tag {
-  width: 45px;
-  height: 26px;
-  line-height: 26px;
-  border: 1px solid pink;
-  text-align: center;
-  background: #ffe9ed;
-  border-radius: 4px;
-  display: inline-block;
-  margin: 9px 9px 0 0;
-  color: #f76464;
+.done {
+  background-color: #ebf3e2;
+  border: 4rpx dotted #9cc4b6;
 }
-
-.undo {}
-
-.done {}

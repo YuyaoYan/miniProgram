@@ -6,10 +6,12 @@
     "es6": true,
     "enhance": true,
     "postcss": true,
-    "minified": true,
+    "minified": false,
     "newFeature": true,
     "coverView": true,
+    "nodeModules": true,
     "autoAudits": false,
+    "scopeDataCheck": false,
     "checkInvalidKey": true,
     "checkSiteMap": true,
     "uploadWithSourceMap": true,
@@ -23,11 +25,15 @@
     },
     "useIsolateContext": true,
     "userConfirmedBundleSwitch": false,
-    "packNpmManually": false,
-    "packNpmRelationList": [],
+    "packNpmManually": true,
+    "packNpmRelationList": [
+      {
+        "packageJsonPath": "./package.json",
+        "miniprogramNpmDistDir": "./miniprogram/"
+      }
+    ],
     "minifyWXSS": true,
-    "showES6CompileOption": false,
-    "scopeDataCheck": false
+    "showES6CompileOption": false
   },
   "appid": "wxe7cb050a86c37ef9",
   "projectname": "YoyoSweetyProgram",

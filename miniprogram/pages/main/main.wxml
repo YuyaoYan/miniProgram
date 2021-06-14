@@ -1,0 +1,7 @@
+<!--pages/main/main.wxml-->
+<view>1</view>
+<!-- <van-tabbar active="{{ active }}" bind:change="onChange">
+  <van-tabbar-item icon="records">今日</van-tabbar-item>
+  <van-tabbar-item icon="home-o">首页</van-tabbar-item>
+  <van-tabbar-item icon="contact">我的</van-tabbar-item>
+</van-tabbar> -->

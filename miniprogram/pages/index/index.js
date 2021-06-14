@@ -60,9 +60,10 @@ Page({
       success: res => {
         debugger
         console.log('[云函数] [login] user openid: ', res.result.userInfo.openId)
-        app.globalData.openid = res.result.openid
+        app.globalData.openid = res.result.userInfo.openId
         wx.navigateTo({
           // url: '../userConsole/userConsole',
+          // url: '../main/main',
           url: '../notes/notes',
         })
       },
